@@ -11,3 +11,16 @@ Precisa ter o PHP instalado. Com o terminal aberto dentro da pasta do projeto:
 php -S localhost:8000
 
 Depois é só abrir http://localhost:8000 no navegador.
+
+Estrutura
+portal_aluno/
+├── index.php
+├── cadastro.php
+├── processar_cadastro.php
+├── resultado.php
+├── logout.php
+├── TESTES.md
+└── includes/
+    ├── cabecalho.php
+    ├── rodape.php
+    └── funcoes.php
